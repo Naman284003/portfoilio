@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .left {
+            font-size: xx-large;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(2, 2, 40);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: large;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: x-large;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .first>div {
+            width: 40%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            width: 450px; /* Adjust the width to make the image square */
+            height: 450px; /* Ensure the height is equal to the width */
+            border-radius: 100%; /* This will make the image circular */
+            object-fit: cover; /* Ensures the image doesn't stretch and is contained within the circle */
+        }
+
+        .color {
+            color: blueviolet;
+        }
+
+        .about {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .side-text {
+            width: 70vw;
+            font-size: x-large;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .side-text ul {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Naman's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a class="active" href="/">Home</a></li>
+                    <li><a href="#Home">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftsection">Hi, My name is <span class="color">Naman Verma</span>
+                <div>and I am passionate</div>
+                <div>about technology.</div>
+            </div>
+            <div class="rightsection">
+                <img src="NAMAN IMAGE.jpg" alt="Naman Verma- Profile Image">
+            </div>
+        </section>
+
+        <section>
+            <div class="diffSection" id="Home">
+                <center>
+                    <p style="font-size: 60px; padding: 100px"><b>About Me</b></p>
+                    <div class="about-content">
+                        <div class="side-text">
+                            <p>Hello! I'm Saransh Sahu, a first-year B.Tech Computer Science Engineering student passionate
+                                about technology, problem-solving, and continuous learning. I am pursuing my B.Tech from KIET GROUP OF INSTITUTIONS, 
+                                Ghaziabad.
+                                <br>
+                                I am also the part of E-CELL KIET.I am also interested in job category like finance,Consultancy,data analyst,Investment Banker.<br>
+                                I am also learning stock market side by side which help me to become rich person in life.<br>I take time open up with people.<br> Thank you!
+
+
+                            </p>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </section>
+
+        <section>
+            <div class="diffSection" id="Skills">
+                <center>
+                    <p style="font-size: 60px; padding: 100px"><b>Skills</b></p>
+                    <div class="skill-content">
+                        <div class="side-text">
+                            <ul>
+                                <li>1. Front-End Development Skills: HTML, CSS for developing and styling web pages.</li>
+                                <li>2. Developing Soft skills which are essential interpersonal abilities, such as communication, empathy,
+                                    and teamwork, which complement technical expertise and are crucial for career success and personal growth.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </section>
+
+        <section>
+            <div class="diffSection" id="Projects">
+                <center>
+                    <p style="font-size: 60px; padding: 100px"><b>Projects</b></p>
+                    <div class="skill-content">
+                        <div class="side-text">
+                            <ul>
+                                <li>1. CAR RENTAL WEBSITE: Build a platform for those who want to sell their car and those who want to buy an old car.</li>
+                                <li>2. Completed Google Cloud GenAI Study Jams! 🌟</li>
+                            </ul>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </section>
+
+        <section>
+            <div class="diffSection" id="Contact">
+                <center>
+                    <p style="font-size: 60px; padding: 100px"><b>Contact Me</b></p>
+                    <div class="skill-content">
+                        <div class="side-text">
+                            <p>
+                                <a href="https://www.linkedin.com/in/saransh-sahu-4967a0303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+                            </p>
+                            <p><a href="https://www.instagram.com/saransh_6232/profilecard/?igsh=MWpueDR3ZWUwY3ptaw==">Instagram</a></p>
+                            <p>saransh1315@gmail.com</p>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
